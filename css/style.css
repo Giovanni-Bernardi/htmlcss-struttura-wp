@@ -14,7 +14,6 @@
 
 .row{
   margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 #container{
@@ -24,9 +23,10 @@
 
 /* header */
 header{
-  height: 100px;
+  height: 150px;
   /* debug */
   background-color: lightpink;
+  margin: 30px 0;
 }
 
 /*  main rules */
@@ -36,7 +36,7 @@ main {
 
 /* block one */
 .block-one{
-  height: 250px;
+  height: 400px;
   background-color: yellow;
 }
 
@@ -45,12 +45,13 @@ main {
 section{
 padding: 30px 0;
 background-color: cornflowerblue;
-height: 330px;
+height: 660px;
 }
 
 .topblock{
   background-color: lightblue;
   height: 110px;
+  padding: 30px 0;
 }
 
 .sideblock{
@@ -63,8 +64,8 @@ height: 330px;
 
 .centralblock{
   float: left;
-  width: 45%;
-  margin: 0 2.5%;
+  width: 46%;
+  margin: 0 2%;
   /* debug */
   background-color: lightblue;
   height: 600px;
@@ -76,5 +77,5 @@ footer{
   /* debug */
   background-color: violet;
   height: 70px;
-  margin: 40px 0;
+  margin: 30px 0;
 }
